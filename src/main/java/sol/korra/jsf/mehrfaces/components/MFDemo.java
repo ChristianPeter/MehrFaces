@@ -18,6 +18,7 @@ public class MFDemo extends UIComponentBase {
 
     @Override
     public String getFamily() {
+        System.out.println("getFamily");
         return "sol.korra.jsf.mehrfaces";
     }
     

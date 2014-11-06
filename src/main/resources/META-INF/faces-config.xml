@@ -7,7 +7,7 @@
     
     <component>
         <component-type>mehrfaces.MFDemo</component-type>
-        <component-class>sol.korra.jsf.mehrfaces.component.MFDemo</component-class>
+        <component-class>sol.korra.jsf.mehrfaces.components.MFDemo</component-class>
     </component>
     
     <render-kit>
