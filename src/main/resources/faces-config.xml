@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<faces-config version="2.0" xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
+    
+    <name>mehrfaces</name>
+    
+    <component>
+        <component-type>mehrfaces.MFDemo</component-type>
+        <component-class>sol.korra.jsf.mehrfaces.component.MFDemo</component-class>
+    </component>
+    
+    <render-kit>
+        <renderer>
+            <component-family>sol.korra.jsf.mehrfaces</component-family>
+            <renderer-type>mehrfaces.MFDemoRenderer</renderer-type>
+            <renderer-class>sol.korra.jsf.mehrfaces.renderer.MFDemoRenderer</renderer-class>
+        </renderer>
+    </render-kit>
+</faces-config>
