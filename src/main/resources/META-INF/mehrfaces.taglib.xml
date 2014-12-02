@@ -12,4 +12,13 @@
             <renderer-type>mehrfaces.MFDemoRenderer</renderer-type>
         </component>
     </tag>
+    <tag>
+        <tag-name>autocomplete</tag-name>
+        <description><![CDATA[Just a demo]]></description>
+        <component>
+            <component-type>mehrfaces.Autocomplete</component-type>
+            <renderer-type>mehrfaces.AutocompleteRenderer</renderer-type>
+            <handler-class>sol.korra.jsf.mehrfaces.components.AutocompleteHandler</handler-class>
+        </component>
+    </tag>
 </facelet-taglib>

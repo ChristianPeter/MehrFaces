@@ -10,11 +10,21 @@
         <component-class>sol.korra.jsf.mehrfaces.components.MFDemo</component-class>
     </component>
     
+    <component>
+        <component-type>mehrfaces.Autocomplete</component-type>
+        <component-class>sol.korra.jsf.mehrfaces.components.Autocomplete</component-class>
+    </component>
+    
     <render-kit>
         <renderer>
             <component-family>sol.korra.jsf.mehrfaces</component-family>
             <renderer-type>mehrfaces.MFDemoRenderer</renderer-type>
             <renderer-class>sol.korra.jsf.mehrfaces.renderer.MFDemoRenderer</renderer-class>
+        </renderer>
+        <renderer>
+            <component-family>sol.korra.jsf.mehrfaces</component-family>
+            <renderer-type>mehrfaces.AutocompleteRenderer</renderer-type>
+            <renderer-class>sol.korra.jsf.mehrfaces.renderer.AutocompleteRenderer</renderer-class>
         </renderer>
     </render-kit>
 </faces-config>
